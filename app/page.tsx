@@ -86,6 +86,68 @@ export default function Home() {
                 ]}
                 categoryId={1}
               />
+              <ProductsGroupList
+                title="Бургери"
+                items={[
+                  {
+                    id: 1,
+                    name: "Маргарита",
+                    imageUrl:
+                      "https://salad.com.ua/sites/default/files/styles/432x369_x2/public/products/fon-pica-kopiya2.jpg?itok=fAeFw3p5",
+                    price: 550,
+                    items: [{ price: 550 }],
+                  },
+                  {
+                    id: 1,
+                    name: "Маргарита",
+                    imageUrl:
+                      "https://salad.com.ua/sites/default/files/styles/432x369_x2/public/products/fon-pica-kopiya2.jpg?itok=fAeFw3p5",
+                    price: 550,
+                    items: [{ price: 550 }],
+                  },
+                  {
+                    id: 1,
+                    name: "Маргарита",
+                    imageUrl:
+                      "https://salad.com.ua/sites/default/files/styles/432x369_x2/public/products/fon-pica-kopiya2.jpg?itok=fAeFw3p5",
+                    price: 550,
+                    items: [{ price: 550 }],
+                  },
+                  {
+                    id: 1,
+                    name: "Маргарита",
+                    imageUrl:
+                      "https://salad.com.ua/sites/default/files/styles/432x369_x2/public/products/fon-pica-kopiya2.jpg?itok=fAeFw3p5",
+                    price: 550,
+                    items: [{ price: 550 }],
+                  },
+                  {
+                    id: 1,
+                    name: "Маргарита",
+                    imageUrl:
+                      "https://salad.com.ua/sites/default/files/styles/432x369_x2/public/products/fon-pica-kopiya2.jpg?itok=fAeFw3p5",
+                    price: 550,
+                    items: [{ price: 550 }],
+                  },
+                  {
+                    id: 1,
+                    name: "Маргарита",
+                    imageUrl:
+                      "https://salad.com.ua/sites/default/files/styles/432x369_x2/public/products/fon-pica-kopiya2.jpg?itok=fAeFw3p5",
+                    price: 550,
+                    items: [{ price: 550 }],
+                  },
+                  {
+                    id: 1,
+                    name: "Маргарита",
+                    imageUrl:
+                      "https://salad.com.ua/sites/default/files/styles/432x369_x2/public/products/fon-pica-kopiya2.jpg?itok=fAeFw3p5",
+                    price: 550,
+                    items: [{ price: 550 }],
+                  },
+                ]}
+                categoryId={2}
+              />
             </div>
           </div>
         </div>
