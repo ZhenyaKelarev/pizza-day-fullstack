@@ -1,4 +1,3 @@
-import { connect } from "http2"
 import { categories, ingredients, products } from "./constants"
 import { prisma } from "./prisma-client"
 import { hashSync } from "bcrypt"
@@ -7,7 +6,11 @@ const randomNumber = (min: number, max: number) => {
   return Math.floor(Math.random() * (max - min) + min)
 }
 
-const generatePizza = (productId: number, type: number, size: number) => {
+const generatePizza = (
+  productId: number,
+  type?: 1 | 2 | 3,
+  size?: 20 | 30 | 40
+) => {
   return {
     productId,
     size,
@@ -45,7 +48,7 @@ async function up() {
   })
   const pizza1 = await prisma.product.create({
     data: {
-      name: "Сирна",
+      name: "сирна",
       image:
         "https://i0.wp.com/caponepizza.kiev.ua/wp-content/uploads/2019/09/pizza_03-1.jpg?fit=1140%2C1140&ssl=1",
       categoryId: 1,
@@ -57,7 +60,7 @@ async function up() {
 
   const pizza2 = await prisma.product.create({
     data: {
-      name: "Маргаріта",
+      name: "маргаріта",
       image:
         "https://img.freepik.com/premium-photo/classic-pepperoni-pizza-tomato-sauce-melted-cheese-top_807701-676.jpg",
       categoryId: 2,
@@ -69,7 +72,7 @@ async function up() {
 
   const pizza3 = await prisma.product.create({
     data: {
-      name: "Чорізо",
+      name: "чорізо",
       image:
         "https://media.istockphoto.com/id/1349560847/photo/sausage-and-vegetable-pizza-on-dark-background.jpg?s=612x612&w=0&k=20&c=VjDdBc_WrHh9dqI8jCSEoI1jeWQDVSdXOJJ5LijQoRA=",
       categoryId: 3,
@@ -100,6 +103,10 @@ async function up() {
       generatePizza(pizza3.id, 1, 20),
       generatePizza(pizza3.id, 2, 30),
       generatePizza(pizza3.id, 3, 40),
+
+      // Rest products
+      generatePizza(1),
+      generatePizza(2),
     ],
   })
 

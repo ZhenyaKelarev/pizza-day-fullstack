@@ -36,7 +36,7 @@ export const ingredients = [
       "https://cdn.dodostatic.net/static/Img/Ingredients/000D3A22FA54A81411E9AFA69C1FE796",
   },
   {
-    name: "Острый перец халапеньо",
+    name: "Hot перец халапеньо",
     price: 59,
     image:
       "https://cdn.dodostatic.net/static/Img/Ingredients/11ee95b6bfdf98fb88a113db92d7b3df.png",
@@ -135,7 +135,7 @@ export const products = [
     categoryId: 2,
   },
   {
-    name: "Кофе Латте",
+    name: "Кофе Latte",
     image:
       "https://media.dodostatic.net/image/r:292x292/11EE7D61B0C26A3F85D97A78FEEE00AD.webp",
     categoryId: 2,
@@ -207,7 +207,7 @@ export const products = [
     categoryId: 5,
   },
   {
-    name: "Кофе Кокосовый латте",
+    name: "Кофе Кокосовый latte",
     image:
       "https://media.dodostatic.net/image/r:292x292/11EE7D61B19FA07090EE88B0ED347F42.webp",
     categoryId: 5,

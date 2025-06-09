@@ -36,7 +36,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 2,
                     name: "Маргарита",
                     imageUrl:
                       "https://salad.com.ua/sites/default/files/styles/432x369_x2/public/products/fon-pica-kopiya2.jpg?itok=fAeFw3p5",
@@ -44,7 +44,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 3,
                     name: "Маргарита",
                     imageUrl:
                       "https://salad.com.ua/sites/default/files/styles/432x369_x2/public/products/fon-pica-kopiya2.jpg?itok=fAeFw3p5",
@@ -52,7 +52,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 4,
                     name: "Маргарита",
                     imageUrl:
                       "https://salad.com.ua/sites/default/files/styles/432x369_x2/public/products/fon-pica-kopiya2.jpg?itok=fAeFw3p5",
@@ -60,7 +60,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 5,
                     name: "Маргарита",
                     imageUrl:
                       "https://salad.com.ua/sites/default/files/styles/432x369_x2/public/products/fon-pica-kopiya2.jpg?itok=fAeFw3p5",
@@ -68,7 +68,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 6,
                     name: "Маргарита",
                     imageUrl:
                       "https://salad.com.ua/sites/default/files/styles/432x369_x2/public/products/fon-pica-kopiya2.jpg?itok=fAeFw3p5",
@@ -76,7 +76,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 7,
                     name: "Маргарита",
                     imageUrl:
                       "https://salad.com.ua/sites/default/files/styles/432x369_x2/public/products/fon-pica-kopiya2.jpg?itok=fAeFw3p5",
@@ -98,7 +98,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 2,
                     name: "Маргарита",
                     imageUrl:
                       "https://salad.com.ua/sites/default/files/styles/432x369_x2/public/products/fon-pica-kopiya2.jpg?itok=fAeFw3p5",
@@ -106,7 +106,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 3,
                     name: "Маргарита",
                     imageUrl:
                       "https://salad.com.ua/sites/default/files/styles/432x369_x2/public/products/fon-pica-kopiya2.jpg?itok=fAeFw3p5",
@@ -114,7 +114,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 4,
                     name: "Маргарита",
                     imageUrl:
                       "https://salad.com.ua/sites/default/files/styles/432x369_x2/public/products/fon-pica-kopiya2.jpg?itok=fAeFw3p5",
@@ -122,7 +122,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 5,
                     name: "Маргарита",
                     imageUrl:
                       "https://salad.com.ua/sites/default/files/styles/432x369_x2/public/products/fon-pica-kopiya2.jpg?itok=fAeFw3p5",
@@ -130,7 +130,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 6,
                     name: "Маргарита",
                     imageUrl:
                       "https://salad.com.ua/sites/default/files/styles/432x369_x2/public/products/fon-pica-kopiya2.jpg?itok=fAeFw3p5",
@@ -138,7 +138,7 @@ export default function Home() {
                     items: [{ price: 550 }],
                   },
                   {
-                    id: 1,
+                    id: 7,
                     name: "Маргарита",
                     imageUrl:
                       "https://salad.com.ua/sites/default/files/styles/432x369_x2/public/products/fon-pica-kopiya2.jpg?itok=fAeFw3p5",
